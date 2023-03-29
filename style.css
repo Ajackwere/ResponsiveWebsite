@@ -1,0 +1,18 @@
+body {
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #greeting {
+    text-align: center;
+    margin: 50px auto;
+  }
+  
+  form {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center
+  }
+  

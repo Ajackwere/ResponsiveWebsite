@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Customizable Greeting and To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="greeting">Hello User!</h1>
+        <p id="message">This is a brief message.</p>
+        
+        <form id="customization-form">
+            <label for="name-input">Enter your name:</label>
+            <input type="text" id="name-input">
+            
+            <label for="message-input">Enter your message:</label>
+            <input type="text" id="message-input">
+            
+            <label for="color-select">Select background color:</label>
+            <select id="color-select">
+                <option value="white">White</option>
+                <option value="lightblue">Light Blue</option>
+                <option value="lightgreen">Light Green</option>
+            </select>
+            
+            <button type="submit" id="submit-button">Submit</button>
+        </form>
+        
+        <h2>To-Do List:</h2>
+        <form id="todo-form">
+            <input type="text" id="todo-input">
+            <button type="submit" id="todo-button">Add</button>
+        </form>
+        <ol id="todo-list"></ol>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
