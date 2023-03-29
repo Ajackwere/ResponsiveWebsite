@@ -1,18 +1,58 @@
-body {
-    background-color: #fff;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+/* Style the greeting element */
+#greeting {
+    font-size: 2em;
     color: #333;
   }
   
-  #greeting {
-    text-align: center;
-    margin: 50px auto;
+  /* Style the message element */
+  #message {
+    font-size: 1.5em;
+    color: #666;
   }
   
-  form {
-    width: 400px;
-    margin: 0 auto;
-    text-align: center
+  /* Style the input fields and labels */
+  label {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the drop down menu */
+  select {
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style the submit button */
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  /* Style the ordered list for the To Do List functionality */
+  ol {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  /* Style the list items in the ordered list */
+  li {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
   }
   
